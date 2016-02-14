@@ -7,12 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		521CA2CC1C6F1B5E00C82AAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 525234581C6EFF3800987A84 /* Main.storyboard */; };
+		521CA2D11C6F248900C82AAE /* FakeMinionSupplier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 521CA2D01C6F248900C82AAE /* FakeMinionSupplier.swift */; };
+		524D7D8C1C6F15EB00EBD9BB /* MinionsTableViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524D7D8B1C6F15EB00EBD9BB /* MinionsTableViewControllerTests.swift */; };
 		525234551C6EFF3800987A84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525234541C6EFF3800987A84 /* AppDelegate.swift */; };
-		525234571C6EFF3800987A84 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525234561C6EFF3800987A84 /* ViewController.swift */; };
+		525234571C6EFF3800987A84 /* MinionsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525234561C6EFF3800987A84 /* MinionsTableViewController.swift */; };
 		5252345A1C6EFF3800987A84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 525234581C6EFF3800987A84 /* Main.storyboard */; };
 		5252345C1C6EFF3800987A84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5252345B1C6EFF3800987A84 /* Assets.xcassets */; };
 		5252345F1C6EFF3800987A84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5252345D1C6EFF3800987A84 /* LaunchScreen.storyboard */; };
-		5252346A1C6EFF3800987A84 /* MinonsSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525234691C6EFF3800987A84 /* MinonsSampleTests.swift */; };
+		5252346A1C6EFF3800987A84 /* MinionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525234691C6EFF3800987A84 /* MinionTests.swift */; };
+		525234751C6EFF4A00987A84 /* Minion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525234741C6EFF4A00987A84 /* Minion.swift */; };
+		525234771C6F00E700987A84 /* MinionSupplier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525234761C6F00E700987A84 /* MinionSupplier.swift */; };
+		525234791C6F056C00987A84 /* MinionSupplierTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525234781C6F056C00987A84 /* MinionSupplierTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +32,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		521CA2D01C6F248900C82AAE /* FakeMinionSupplier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FakeMinionSupplier.swift; sourceTree = "<group>"; };
+		524D7D8B1C6F15EB00EBD9BB /* MinionsTableViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinionsTableViewControllerTests.swift; sourceTree = "<group>"; };
 		525234511C6EFF3700987A84 /* MinonsSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MinonsSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		525234541C6EFF3800987A84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		525234561C6EFF3800987A84 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		525234561C6EFF3800987A84 /* MinionsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinionsTableViewController.swift; sourceTree = "<group>"; };
 		525234591C6EFF3800987A84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5252345B1C6EFF3800987A84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5252345E1C6EFF3800987A84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		525234601C6EFF3800987A84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		525234651C6EFF3800987A84 /* MinonsSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MinonsSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		525234691C6EFF3800987A84 /* MinonsSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinonsSampleTests.swift; sourceTree = "<group>"; };
+		525234691C6EFF3800987A84 /* MinionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinionTests.swift; sourceTree = "<group>"; };
 		5252346B1C6EFF3800987A84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		525234741C6EFF4A00987A84 /* Minion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Minion.swift; sourceTree = "<group>"; };
+		525234761C6F00E700987A84 /* MinionSupplier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinionSupplier.swift; sourceTree = "<group>"; };
+		525234781C6F056C00987A84 /* MinionSupplierTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinionSupplierTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +67,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		521CA2CF1C6F247D00C82AAE /* Fakes */ = {
+			isa = PBXGroup;
+			children = (
+				521CA2D01C6F248900C82AAE /* FakeMinionSupplier.swift */,
+			);
+			path = Fakes;
+			sourceTree = "<group>";
+		};
 		525234481C6EFF3700987A84 = {
 			isa = PBXGroup;
 			children = (
@@ -78,11 +97,13 @@
 			isa = PBXGroup;
 			children = (
 				525234541C6EFF3800987A84 /* AppDelegate.swift */,
-				525234561C6EFF3800987A84 /* ViewController.swift */,
-				525234581C6EFF3800987A84 /* Main.storyboard */,
 				5252345B1C6EFF3800987A84 /* Assets.xcassets */,
-				5252345D1C6EFF3800987A84 /* LaunchScreen.storyboard */,
 				525234601C6EFF3800987A84 /* Info.plist */,
+				5252345D1C6EFF3800987A84 /* LaunchScreen.storyboard */,
+				525234581C6EFF3800987A84 /* Main.storyboard */,
+				525234741C6EFF4A00987A84 /* Minion.swift */,
+				525234761C6F00E700987A84 /* MinionSupplier.swift */,
+				525234561C6EFF3800987A84 /* MinionsTableViewController.swift */,
 			);
 			path = MinonsSample;
 			sourceTree = "<group>";
@@ -90,8 +111,11 @@
 		525234681C6EFF3800987A84 /* MinonsSampleTests */ = {
 			isa = PBXGroup;
 			children = (
-				525234691C6EFF3800987A84 /* MinonsSampleTests.swift */,
+				521CA2CF1C6F247D00C82AAE /* Fakes */,
 				5252346B1C6EFF3800987A84 /* Info.plist */,
+				524D7D8B1C6F15EB00EBD9BB /* MinionsTableViewControllerTests.swift */,
+				525234781C6F056C00987A84 /* MinionSupplierTests.swift */,
+				525234691C6EFF3800987A84 /* MinionTests.swift */,
 			);
 			path = MinonsSampleTests;
 			sourceTree = "<group>";
@@ -187,6 +211,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				521CA2CC1C6F1B5E00C82AAE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,8 +222,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				525234571C6EFF3800987A84 /* ViewController.swift in Sources */,
+				525234571C6EFF3800987A84 /* MinionsTableViewController.swift in Sources */,
+				525234771C6F00E700987A84 /* MinionSupplier.swift in Sources */,
 				525234551C6EFF3800987A84 /* AppDelegate.swift in Sources */,
+				525234751C6EFF4A00987A84 /* Minion.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,7 +233,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5252346A1C6EFF3800987A84 /* MinonsSampleTests.swift in Sources */,
+				521CA2D11C6F248900C82AAE /* FakeMinionSupplier.swift in Sources */,
+				524D7D8C1C6F15EB00EBD9BB /* MinionsTableViewControllerTests.swift in Sources */,
+				5252346A1C6EFF3800987A84 /* MinionTests.swift in Sources */,
+				525234791C6F056C00987A84 /* MinionSupplierTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -386,6 +416,7 @@
 				525234701C6EFF3800987A84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		525234711C6EFF3800987A84 /* Build configuration list for PBXNativeTarget "MinonsSampleTests" */ = {
 			isa = XCConfigurationList;
@@ -394,6 +425,7 @@
 				525234731C6EFF3800987A84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
