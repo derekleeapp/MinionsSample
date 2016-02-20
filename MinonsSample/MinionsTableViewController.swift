@@ -2,20 +2,18 @@ import UIKit
 
 class MinionsTableViewController: UITableViewController {
 
-    let supplier: Supplier!
+    let supplier: Repo!
 
     var minions: [Minion]?
 
-
-    init(minionSupplier: Supplier) {
-
-        self.supplier = minionSupplier
+    init(minionsRepo: Repo) {
+        self.supplier = minionsRepo
 
         super.init(style: .Plain)
     }
 
     required init?(coder aDecoder: NSCoder) {
-        self.supplier = MinionSupplier()
+        self.supplier = MinionsRepo(parser: MinionsJsonParser())
         super.init(coder: aDecoder)
     }
 
@@ -51,6 +49,10 @@ class MinionsTableViewController: UITableViewController {
 
         supplier.getMinionsAsynchronously { fetchedMinions in
             self.minions = fetchedMinions
+
+            dispatch_async(dispatch_get_main_queue(), { () -> Void in
+                self.tableView.reloadData()
+            })
         }
 
     }

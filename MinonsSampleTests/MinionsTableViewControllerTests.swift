@@ -4,33 +4,31 @@ import UIKit
 
 class MinionsTableViewControllerTests: XCTestCase {
 
-    let fakeMinionsSupplier = FakeMinionSupplier()
-
     var minionsTableViewController: MinionsTableViewController!
+
+    let fakeMinionsRepo = FakeMinionRepo()
 
     override func setUp() {
         super.setUp()
 
-        minionsTableViewController = MinionsTableViewController(minionSupplier: fakeMinionsSupplier)
-    }
-    
-    override func tearDown() {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-        super.tearDown()
+        minionsTableViewController = MinionsTableViewController(minionsRepo: fakeMinionsRepo)
     }
 
     func testFetchingMinionsAsynchronously() {
-
         let _ = minionsTableViewController!.view
 
-        XCTAssertTrue(fakeMinionsSupplier.getTheMinionsWasCalled)
+        XCTAssertTrue(fakeMinionsRepo.getTheMinionsWasCalled)
 
-        if let minions = minionsTableViewController.minions {
-            print("minions: \(minions)")
-            XCTAssertEqual(fakeMinionsSupplier.result, minions)
+        if let actualMinions = minionsTableViewController.minions {
+            let expectedMinions = [
+                Minion(name: "Fred", username: "Fred", email: ""),
+                Minion(name: "Alex", username: "Alex", email: "")
+            ]
+
+            XCTAssertEqual(actualMinions, expectedMinions)
         } else {
             XCTFail("Minions are nil")
         }
-
     }
+
 }

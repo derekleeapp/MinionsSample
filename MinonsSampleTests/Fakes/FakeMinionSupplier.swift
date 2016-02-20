@@ -1,10 +1,13 @@
 import Foundation
 @testable import MinonsSample
 
-class FakeMinionSupplier: Supplier {
+class FakeMinionRepo: Repo {
 
     var getTheMinionsWasCalled = false
-    var result = [Minion(name: "Fred"), Minion(name: "Alex")]
+    var result = [
+        Minion(name: "Fred", username: "Fred", email: ""),
+        Minion(name: "Alex", username: "Alex", email: "")
+    ]
 
     func getMinionsSynchronously() -> [Minion] {
         getTheMinionsWasCalled = true
