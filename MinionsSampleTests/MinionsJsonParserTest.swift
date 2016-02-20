@@ -1,6 +1,6 @@
 import Foundation
 import XCTest
-@testable import MinonsSample
+@testable import MinionsSample
 
 class MinionsJsonParserTest: XCTestCase {
 

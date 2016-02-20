@@ -1,5 +1,5 @@
 import XCTest
-@testable import MinonsSample
+@testable import MinionsSample
 
 class MinionTests: XCTestCase {
 

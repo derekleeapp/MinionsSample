@@ -1,5 +1,5 @@
 import Foundation
-@testable import MinonsSample
+@testable import MinionsSample
 
 class FakeMinionRepo: Repo {
 

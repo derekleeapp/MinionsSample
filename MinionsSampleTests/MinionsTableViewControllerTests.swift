@@ -1,6 +1,6 @@
 import XCTest
 import UIKit
-@testable import MinonsSample
+@testable import MinionsSample
 
 class MinionsTableViewControllerTests: XCTestCase {
 

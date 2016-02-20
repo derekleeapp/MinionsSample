@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "525234501C6EFF3700987A84"
-               BuildableName = "MinonsSample.app"
-               BlueprintName = "MinonsSample"
-               ReferencedContainer = "container:MinonsSample.xcodeproj">
+               BuildableName = "MinionsSample.app"
+               BlueprintName = "MinionsSample"
+               ReferencedContainer = "container:MinionsSample.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "525234641C6EFF3800987A84"
-               BuildableName = "MinonsSampleTests.xctest"
-               BlueprintName = "MinonsSampleTests"
-               ReferencedContainer = "container:MinonsSample.xcodeproj">
+               BuildableName = "MinionsSampleTests.xctest"
+               BlueprintName = "MinionsSampleTests"
+               ReferencedContainer = "container:MinionsSample.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "525234501C6EFF3700987A84"
-            BuildableName = "MinonsSample.app"
-            BlueprintName = "MinonsSample"
-            ReferencedContainer = "container:MinonsSample.xcodeproj">
+            BuildableName = "MinionsSample.app"
+            BlueprintName = "MinionsSample"
+            ReferencedContainer = "container:MinionsSample.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -66,9 +66,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "525234501C6EFF3700987A84"
-            BuildableName = "MinonsSample.app"
-            BlueprintName = "MinonsSample"
-            ReferencedContainer = "container:MinonsSample.xcodeproj">
+            BuildableName = "MinionsSample.app"
+            BlueprintName = "MinionsSample"
+            ReferencedContainer = "container:MinionsSample.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -85,9 +85,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "525234501C6EFF3700987A84"
-            BuildableName = "MinonsSample.app"
-            BlueprintName = "MinonsSample"
-            ReferencedContainer = "container:MinonsSample.xcodeproj">
+            BuildableName = "MinionsSample.app"
+            BlueprintName = "MinionsSample"
+            ReferencedContainer = "container:MinionsSample.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

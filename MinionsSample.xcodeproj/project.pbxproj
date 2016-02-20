@@ -30,7 +30,7 @@
 			containerPortal = 525234491C6EFF3700987A84 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 525234501C6EFF3700987A84;
-			remoteInfo = MinonsSample;
+			remoteInfo = MinionsSample;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -40,14 +40,14 @@
 		5205B0C11C785CD500BC7C9A /* FakeJsonParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FakeJsonParser.swift; sourceTree = "<group>"; };
 		521CA2D01C6F248900C82AAE /* FakeMinionSupplier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FakeMinionSupplier.swift; sourceTree = "<group>"; };
 		524D7D8B1C6F15EB00EBD9BB /* MinionsTableViewControllerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinionsTableViewControllerTests.swift; sourceTree = "<group>"; };
-		525234511C6EFF3700987A84 /* MinonsSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MinonsSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		525234511C6EFF3700987A84 /* MinionsSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MinionsSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		525234541C6EFF3800987A84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		525234561C6EFF3800987A84 /* MinionsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinionsTableViewController.swift; sourceTree = "<group>"; };
 		525234591C6EFF3800987A84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5252345B1C6EFF3800987A84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5252345E1C6EFF3800987A84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		525234601C6EFF3800987A84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		525234651C6EFF3800987A84 /* MinonsSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MinonsSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		525234651C6EFF3800987A84 /* MinionsSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MinionsSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		525234691C6EFF3800987A84 /* MinionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinionTests.swift; sourceTree = "<group>"; };
 		5252346B1C6EFF3800987A84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		525234741C6EFF4A00987A84 /* Minion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Minion.swift; sourceTree = "<group>"; };
@@ -85,8 +85,8 @@
 		525234481C6EFF3700987A84 = {
 			isa = PBXGroup;
 			children = (
-				525234531C6EFF3700987A84 /* MinonsSample */,
-				525234681C6EFF3800987A84 /* MinonsSampleTests */,
+				525234531C6EFF3700987A84 /* MinionsSample */,
+				525234681C6EFF3800987A84 /* MinionsSampleTests */,
 				525234521C6EFF3700987A84 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -94,13 +94,13 @@
 		525234521C6EFF3700987A84 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				525234511C6EFF3700987A84 /* MinonsSample.app */,
-				525234651C6EFF3800987A84 /* MinonsSampleTests.xctest */,
+				525234511C6EFF3700987A84 /* MinionsSample.app */,
+				525234651C6EFF3800987A84 /* MinionsSampleTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		525234531C6EFF3700987A84 /* MinonsSample */ = {
+		525234531C6EFF3700987A84 /* MinionsSample */ = {
 			isa = PBXGroup;
 			children = (
 				525234541C6EFF3800987A84 /* AppDelegate.swift */,
@@ -113,10 +113,10 @@
 				525234761C6F00E700987A84 /* MinionsRepo.swift */,
 				5205B0BF1C784F4200BC7C9A /* MinionsJsonParser.swift */,
 			);
-			path = MinonsSample;
+			path = MinionsSample;
 			sourceTree = "<group>";
 		};
-		525234681C6EFF3800987A84 /* MinonsSampleTests */ = {
+		525234681C6EFF3800987A84 /* MinionsSampleTests */ = {
 			isa = PBXGroup;
 			children = (
 				521CA2CF1C6F247D00C82AAE /* Fakes */,
@@ -126,15 +126,15 @@
 				525234781C6F056C00987A84 /* MinionRepoTests.swift */,
 				525234691C6EFF3800987A84 /* MinionTests.swift */,
 			);
-			path = MinonsSampleTests;
+			path = MinionsSampleTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		525234501C6EFF3700987A84 /* MinonsSample */ = {
+		525234501C6EFF3700987A84 /* MinionsSample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5252346E1C6EFF3800987A84 /* Build configuration list for PBXNativeTarget "MinonsSample" */;
+			buildConfigurationList = 5252346E1C6EFF3800987A84 /* Build configuration list for PBXNativeTarget "MinionsSample" */;
 			buildPhases = (
 				5252344D1C6EFF3700987A84 /* Sources */,
 				5252344E1C6EFF3700987A84 /* Frameworks */,
@@ -144,14 +144,14 @@
 			);
 			dependencies = (
 			);
-			name = MinonsSample;
-			productName = MinonsSample;
-			productReference = 525234511C6EFF3700987A84 /* MinonsSample.app */;
+			name = MinionsSample;
+			productName = MinionsSample;
+			productReference = 525234511C6EFF3700987A84 /* MinionsSample.app */;
 			productType = "com.apple.product-type.application";
 		};
-		525234641C6EFF3800987A84 /* MinonsSampleTests */ = {
+		525234641C6EFF3800987A84 /* MinionsSampleTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 525234711C6EFF3800987A84 /* Build configuration list for PBXNativeTarget "MinonsSampleTests" */;
+			buildConfigurationList = 525234711C6EFF3800987A84 /* Build configuration list for PBXNativeTarget "MinionsSampleTests" */;
 			buildPhases = (
 				525234611C6EFF3800987A84 /* Sources */,
 				525234621C6EFF3800987A84 /* Frameworks */,
@@ -162,9 +162,9 @@
 			dependencies = (
 				525234671C6EFF3800987A84 /* PBXTargetDependency */,
 			);
-			name = MinonsSampleTests;
-			productName = MinonsSampleTests;
-			productReference = 525234651C6EFF3800987A84 /* MinonsSampleTests.xctest */;
+			name = MinionsSampleTests;
+			productName = MinionsSampleTests;
+			productReference = 525234651C6EFF3800987A84 /* MinionsSampleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -186,7 +186,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5252344C1C6EFF3700987A84 /* Build configuration list for PBXProject "MinonsSample" */;
+			buildConfigurationList = 5252344C1C6EFF3700987A84 /* Build configuration list for PBXProject "MinionsSample" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -199,8 +199,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				525234501C6EFF3700987A84 /* MinonsSample */,
-				525234641C6EFF3800987A84 /* MinonsSampleTests */,
+				525234501C6EFF3700987A84 /* MinionsSample */,
+				525234641C6EFF3800987A84 /* MinionsSampleTests */,
 			);
 		};
 /* End PBXProject section */
@@ -257,7 +257,7 @@
 /* Begin PBXTargetDependency section */
 		525234671C6EFF3800987A84 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 525234501C6EFF3700987A84 /* MinonsSample */;
+			target = 525234501C6EFF3700987A84 /* MinionsSample */;
 			targetProxy = 525234661C6EFF3800987A84 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -367,9 +367,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = MinonsSample/Info.plist;
+				INFOPLIST_FILE = MinionsSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.sunrisingappdev.MinonsSample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunrisingappdev.MinionsSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -378,9 +378,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = MinonsSample/Info.plist;
+				INFOPLIST_FILE = MinionsSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.sunrisingappdev.MinonsSample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunrisingappdev.MinionsSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -389,11 +389,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = MinonsSampleTests/Info.plist;
+				INFOPLIST_FILE = MinionsSampleTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.sunrisingappdev.MinonsSampleTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunrisingappdev.MinionsSampleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MinonsSample.app/MinonsSample";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MinionsSample.app/MinionsSample";
 			};
 			name = Debug;
 		};
@@ -401,18 +401,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = MinonsSampleTests/Info.plist;
+				INFOPLIST_FILE = MinionsSampleTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.sunrisingappdev.MinonsSampleTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sunrisingappdev.MinionsSampleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MinonsSample.app/MinonsSample";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MinionsSample.app/MinionsSample";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5252344C1C6EFF3700987A84 /* Build configuration list for PBXProject "MinonsSample" */ = {
+		5252344C1C6EFF3700987A84 /* Build configuration list for PBXProject "MinionsSample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5252346C1C6EFF3800987A84 /* Debug */,
@@ -421,7 +421,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5252346E1C6EFF3800987A84 /* Build configuration list for PBXNativeTarget "MinonsSample" */ = {
+		5252346E1C6EFF3800987A84 /* Build configuration list for PBXNativeTarget "MinionsSample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5252346F1C6EFF3800987A84 /* Debug */,
@@ -430,7 +430,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		525234711C6EFF3800987A84 /* Build configuration list for PBXNativeTarget "MinonsSampleTests" */ = {
+		525234711C6EFF3800987A84 /* Build configuration list for PBXNativeTarget "MinionsSampleTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				525234721C6EFF3800987A84 /* Debug */,
