@@ -1,9 +1,15 @@
-//
-//  FakeHttpRequester.swift
-//  MinionsSample
-//
-//  Created by Ewan Leaver on 2016/02/21.
-//  Copyright © 2016年 Sun Rising App Dev. All rights reserved.
-//
-
 import Foundation
+@testable import MinionsSample
+
+class FakeHttpRequester: HttpRequester {
+
+    var request_arg = String()
+    let request_result = "[{\"name\": \"Bob\",\"username\": \"bminion\",\"email\": \"bob@minion.io\",}]".dataUsingEncoding(NSUTF8StringEncoding)!
+    
+    func request(urlString: String, completion: (NSData? -> Void)) {
+        
+        request_arg = urlString
+        completion(request_result)
+        
+    }
+}

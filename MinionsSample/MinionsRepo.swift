@@ -8,7 +8,7 @@ struct MinionsRepo
     <P: DataParser where P.ParsedObject == Minion>
 {
     let parser: P
-    let requester: MinionsHttpRequester
+    let requester: HttpRequester
 }
 
 extension MinionsRepo: Repo {
