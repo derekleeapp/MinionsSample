@@ -13,7 +13,7 @@ class MinionsTableViewController: UITableViewController {
     }
 
     required init?(coder aDecoder: NSCoder) {
-        self.supplier = MinionsRepo(parser: MinionsJsonParser())
+        self.supplier = MinionsRepo(parser: MinionsJsonParser(), requester: MinionsHttpRequester())
         super.init(coder: aDecoder)
     }
 

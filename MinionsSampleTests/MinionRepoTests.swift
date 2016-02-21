@@ -7,13 +7,13 @@ class MinionRepoTests: XCTestCase {
 
     func testGetMinionsAsynchronouslyParsesData() {
         let fakeJsonParser = FakeJsonParser()
-        let minionRepo = MinionsRepo(parser: fakeJsonParser)
+        let fakeHttpRequester = FakeHttpRequester()
+        let minionRepo = MinionsRepo(parser: fakeJsonParser, requester: fakeHttpRequester)
 
         minionRepo.getMinionsAsynchronously { _ in }
 
-        let expectedData: NSData = "test".dataUsingEncoding(NSUTF8StringEncoding)!
-
+        let expectedData: NSData = "[{\"name\": \"Bob\",\"username\": \"bminion\",\"email\": \"bob@minion.io\",}]".dataUsingEncoding(NSUTF8StringEncoding)!
+        
         XCTAssertEqual(fakeJsonParser.parse_arg, expectedData)
     }
-    
 }
