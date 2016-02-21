@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		40737EAA1C79473E001F15F1 /* MinionsHttpRequester.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40737EA91C79473E001F15F1 /* MinionsHttpRequester.swift */; };
 		5205B0BE1C784E1500BC7C9A /* MinionsJsonParserTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5205B0BD1C784E1500BC7C9A /* MinionsJsonParserTest.swift */; };
 		5205B0C01C784F4200BC7C9A /* MinionsJsonParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5205B0BF1C784F4200BC7C9A /* MinionsJsonParser.swift */; };
 		5205B0C21C785CD500BC7C9A /* FakeJsonParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5205B0C11C785CD500BC7C9A /* FakeJsonParser.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		40737EA91C79473E001F15F1 /* MinionsHttpRequester.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinionsHttpRequester.swift; sourceTree = "<group>"; };
 		5205B0BD1C784E1500BC7C9A /* MinionsJsonParserTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinionsJsonParserTest.swift; sourceTree = "<group>"; };
 		5205B0BF1C784F4200BC7C9A /* MinionsJsonParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinionsJsonParser.swift; sourceTree = "<group>"; };
 		5205B0C11C785CD500BC7C9A /* FakeJsonParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FakeJsonParser.swift; sourceTree = "<group>"; };
@@ -109,9 +111,10 @@
 				5252345D1C6EFF3800987A84 /* LaunchScreen.storyboard */,
 				525234581C6EFF3800987A84 /* Main.storyboard */,
 				525234741C6EFF4A00987A84 /* Minion.swift */,
-				525234561C6EFF3800987A84 /* MinionsTableViewController.swift */,
-				525234761C6F00E700987A84 /* MinionsRepo.swift */,
+				40737EA91C79473E001F15F1 /* MinionsHttpRequester.swift */,
 				5205B0BF1C784F4200BC7C9A /* MinionsJsonParser.swift */,
+				525234761C6F00E700987A84 /* MinionsRepo.swift */,
+				525234561C6EFF3800987A84 /* MinionsTableViewController.swift */,
 			);
 			path = MinionsSample;
 			sourceTree = "<group>";
@@ -235,6 +238,7 @@
 				525234771C6F00E700987A84 /* MinionsRepo.swift in Sources */,
 				525234551C6EFF3800987A84 /* AppDelegate.swift in Sources */,
 				525234751C6EFF4A00987A84 /* Minion.swift in Sources */,
+				40737EAA1C79473E001F15F1 /* MinionsHttpRequester.swift in Sources */,
 				5205B0C01C784F4200BC7C9A /* MinionsJsonParser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
