@@ -16,9 +16,14 @@ extension MinionsRepo: Repo {
 
         let urlString = "http://jsonplaceholder.typicode.com/users"
         self.requester.request(urlString) { (data: NSData?) -> Void in
-            let minionsArray = self.parser.parse(data!)
             
-            completion(minionsArray)
+            if ((data) != nil) {
+                let minionsArray = self.parser.parse(data!)
+                
+                completion(minionsArray)
+            } else {
+                completion([])
+            }
         }
     }
 }
