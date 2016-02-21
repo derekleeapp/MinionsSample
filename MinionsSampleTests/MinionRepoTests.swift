@@ -7,7 +7,8 @@ class MinionRepoTests: XCTestCase {
 
     func testGetMinionsAsynchronouslyParsesData() {
         let fakeJsonParser = FakeJsonParser()
-        let minionRepo = MinionsRepo(parser: fakeJsonParser, requester: FakeHttpRequester())
+        let fakeHttpRequester = FakeHttpRequester()
+        let minionRepo = MinionsRepo(parser: fakeJsonParser, requester: fakeHttpRequester)
 
         minionRepo.getMinionsAsynchronously { _ in }
 
