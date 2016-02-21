@@ -11,12 +11,11 @@ class MinionsHttpRequesterTest: XCTestCase {
     }
     
     func testCanRequestFromUrlString() {
-        
-        let expectation = expectationWithDescription("SomeService does stuff and runs the callback closure")
+        let expectation = expectationWithDescription("MinionsHttpRequester performs request and runs the callback closure")
 
         let urlString = "http://jsonplaceholder.typicode.com/users"
         
-        minionsHttpRequester.request(urlString) { (data: NSData) -> Void in
+        minionsHttpRequester.request(urlString) { (data: NSData?) -> Void in
             XCTAssertNotNil(data)
             
             // Fulfill the expectation we initially defined
@@ -31,4 +30,23 @@ class MinionsHttpRequesterTest: XCTestCase {
         }
     }
     
+    func testDoesNotProduceDataFromInvalidURL() {
+        
+        let expectation = expectationWithDescription("MinionsHttpRequester should not produce data from invlaid URL request")
+        
+        let urlString = "qwerty"
+        
+        minionsHttpRequester.request(urlString) { (data: NSData?) -> Void in
+            XCTAssertNil(data)
+            
+            expectation.fulfill();
+        }
+        
+        // 5 seconds may be a little long
+        waitForExpectationsWithTimeout(5) { error -> Void in
+            if let error = error {
+                XCTFail("waitForExpectationsWithTimeout errored: \(error)")
+            }
+        }
+    }
 }

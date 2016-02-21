@@ -3,7 +3,7 @@ import Foundation
 class MinionsHttpRequester {
     
     //func request(urlString: String) -> NSData {
-    func request(urlString: String, completion: (NSData -> Void)) {
+    func request(urlString: String, completion: (NSData? -> Void)) {
         
         let url = NSURL(string: urlString)!
         let urlRequest = NSURLRequest(URL: url)
@@ -17,7 +17,7 @@ class MinionsHttpRequester {
                     maybeResponse: NSURLResponse?,
                     maybeError: NSError?) -> Void in
                     
-                    completion(maybeData!)
+                    completion(maybeData)
             })
             .resume()
     }
