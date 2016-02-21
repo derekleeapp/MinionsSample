@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		40737EAA1C79473E001F15F1 /* MinionsHttpRequester.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40737EA91C79473E001F15F1 /* MinionsHttpRequester.swift */; };
 		40737EAC1C794CB1001F15F1 /* MinionsHttpRequesterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40737EAB1C794CB1001F15F1 /* MinionsHttpRequesterTests.swift */; };
+		40737EAE1C795E03001F15F1 /* FakeHttpRequester.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40737EAD1C795E03001F15F1 /* FakeHttpRequester.swift */; };
 		5205B0BE1C784E1500BC7C9A /* MinionsJsonParserTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5205B0BD1C784E1500BC7C9A /* MinionsJsonParserTest.swift */; };
 		5205B0C01C784F4200BC7C9A /* MinionsJsonParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5205B0BF1C784F4200BC7C9A /* MinionsJsonParser.swift */; };
 		5205B0C21C785CD500BC7C9A /* FakeJsonParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5205B0C11C785CD500BC7C9A /* FakeJsonParser.swift */; };
@@ -39,6 +40,7 @@
 /* Begin PBXFileReference section */
 		40737EA91C79473E001F15F1 /* MinionsHttpRequester.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinionsHttpRequester.swift; sourceTree = "<group>"; };
 		40737EAB1C794CB1001F15F1 /* MinionsHttpRequesterTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinionsHttpRequesterTests.swift; sourceTree = "<group>"; };
+		40737EAD1C795E03001F15F1 /* FakeHttpRequester.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FakeHttpRequester.swift; sourceTree = "<group>"; };
 		5205B0BD1C784E1500BC7C9A /* MinionsJsonParserTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinionsJsonParserTest.swift; sourceTree = "<group>"; };
 		5205B0BF1C784F4200BC7C9A /* MinionsJsonParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinionsJsonParser.swift; sourceTree = "<group>"; };
 		5205B0C11C785CD500BC7C9A /* FakeJsonParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FakeJsonParser.swift; sourceTree = "<group>"; };
@@ -80,8 +82,9 @@
 		521CA2CF1C6F247D00C82AAE /* Fakes */ = {
 			isa = PBXGroup;
 			children = (
-				521CA2D01C6F248900C82AAE /* FakeMinionSupplier.swift */,
+				40737EAD1C795E03001F15F1 /* FakeHttpRequester.swift */,
 				5205B0C11C785CD500BC7C9A /* FakeJsonParser.swift */,
+				521CA2D01C6F248900C82AAE /* FakeMinionSupplier.swift */,
 			);
 			path = Fakes;
 			sourceTree = "<group>";
@@ -251,6 +254,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5205B0BE1C784E1500BC7C9A /* MinionsJsonParserTest.swift in Sources */,
+				40737EAE1C795E03001F15F1 /* FakeHttpRequester.swift in Sources */,
 				521CA2D11C6F248900C82AAE /* FakeMinionSupplier.swift in Sources */,
 				40737EAC1C794CB1001F15F1 /* MinionsHttpRequesterTests.swift in Sources */,
 				524D7D8C1C6F15EB00EBD9BB /* MinionsTableViewControllerTests.swift in Sources */,

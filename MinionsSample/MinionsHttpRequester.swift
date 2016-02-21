@@ -1,8 +1,12 @@
 import Foundation
 
-class MinionsHttpRequester {
+protocol HttpRequester {
     
-    //func request(urlString: String) -> NSData {
+    func request(urlString: String, completion: (NSData? -> Void))
+}
+
+class MinionsHttpRequester: HttpRequester {
+    
     func request(urlString: String, completion: (NSData? -> Void)) {
         
         let url = NSURL(string: urlString)!
